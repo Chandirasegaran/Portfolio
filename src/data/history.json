@@ -1,0 +1,25 @@
+[
+  {
+    "role": "Associate Software Developer",
+    "organisation": "Highbrow Technologies",
+    "startDate": "Feb, 2024",
+    "endDate": "Current",
+    "experiences": [
+      "Worked on Building Microservices and RestAPI using Springboot",
+      "Helped create UI components using ReactJS"
+    ],
+    "imageSrc": "history/highbrow.png"
+  },
+  {
+    "role": "Web Design Intern",
+    "organisation": "The Sparks Foundation",
+    "startDate": "Nov, 2022",
+    "endDate": "Dec, 2022",
+    "experiences": [
+      "Building an Responsive Website Using HTML, CSS, JS",
+      "Implemented RazorPay Payment Gateway"
+    ],
+    "imageSrc": "history/spark.jpg"
+  }
+]
+
