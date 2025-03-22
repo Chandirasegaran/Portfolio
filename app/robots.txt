@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://segar-portfolio.vercel.app/sitemap.xml
+
