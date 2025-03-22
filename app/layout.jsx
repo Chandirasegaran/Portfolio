@@ -59,8 +59,9 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
        <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/pic.png" />
+        <link rel="apple-touch-icon" href="/pic.png" />
+        <meta name="google-site-verification" content="DyI5782naJAFI6v7Wn0q3u0Napg4x4LEBS02gI_Z3Ic" />
       </head>
        
       <body className={inter.className}>
