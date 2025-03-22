@@ -62,6 +62,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" href="/pic.png" />
         <link rel="apple-touch-icon" href="/pic.png" />
         <meta name="google-site-verification" content="DyI5782naJAFI6v7Wn0q3u0Napg4x4LEBS02gI_Z3Ic" />
+<meta name="msvalidate.01" content="2E7F8AC7685078D4CC68C20B36224C00" />
       </head>
        
       <body className={inter.className}>
