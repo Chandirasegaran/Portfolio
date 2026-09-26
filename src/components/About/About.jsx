@@ -17,28 +17,30 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Java & Spring Boot Microservices</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                I design and ship REST APIs and microservices with Spring Boot,
+                JPA/Hibernate and Spring Security on PostgreSQL, MySQL and AWS.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/flutter.png")} alt="UI icon" />
+            <img src={getImageUrl("about/uiIcon.png")} alt="Systems icon" />
             <div className={styles.aboutItemText}>
-              <h3>Flutter App Developer</h3>
+              <h3>Rust & Distributed Systems</h3>
               <p>
-                I have Developed multiple Cross Platform Apps using Flutter.
+                I build high-performance Rust services and optimization engines
+                for multi-tenant, distributed backends.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Full-Stack Delivery</h3>
               <p>
-                I'm a frontend developer with experience in building responsive.
+                I build React and Next.js front ends end to end, with CI/CD,
+                Docker and a focus on testable, maintainable code.
               </p>
             </div>
           </li>

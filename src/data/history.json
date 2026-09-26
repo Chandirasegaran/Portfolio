@@ -1,12 +1,25 @@
 [
   {
-    "role": "Associate Software Developer",
-    "organisation": "Highbrow Technologies",
-    "startDate": "Feb, 2024",
-    "endDate": "Current",
+    "role": "Software Engineer (Junior Product Hacker)",
+    "organisation": "Regere LLP",
+    "startDate": "Dec, 2025",
+    "endDate": "Present",
     "experiences": [
-      "Worked on Building Microservices and RestAPI using Springboot",
-      "Helped create UI components using ReactJS"
+      "Engineered a multi-tenant 3D load-planning microservice in Rust (Axum, Tokio, PostgreSQL, AWS S3) with 21 REST endpoints, bin packing and center-of-gravity balancing",
+      "Built transport-unit stacking for a Rust yard recommendation service using constraint validation, rule-based scoring and W3C distributed tracing",
+      "Designed a central API gateway with RBAC/IAM, and built license management and manufacturing-operations platforms"
+    ],
+    "imageSrc": ""
+  },
+  {
+    "role": "Associate Software Engineer",
+    "organisation": "Highbrow Technology Inc.",
+    "startDate": "Feb, 2024",
+    "endDate": "Oct, 2025",
+    "experiences": [
+      "Designed and deployed Spring Boot microservices with REST APIs, JPA/Hibernate and Spring Security on AWS EC2, improving delivery reliability by 25%",
+      "Built a scalable online assessment platform with React and Next.js, reducing development time by 25%",
+      "Led the AI Video Annotation project across 7 teams (30+ members) in Agile/Scrum"
     ],
     "imageSrc": "history/highbrow.png"
   },
@@ -16,10 +29,9 @@
     "startDate": "Nov, 2022",
     "endDate": "Dec, 2022",
     "experiences": [
-      "Building an Responsive Website Using HTML, CSS, JS",
-      "Implemented RazorPay Payment Gateway"
+      "Built a responsive website using HTML, CSS and JavaScript",
+      "Implemented the Razorpay payment gateway"
     ],
     "imageSrc": "history/spark.jpg"
   }
 ]
-

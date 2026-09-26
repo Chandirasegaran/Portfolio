@@ -1,19 +1,30 @@
 [
   {
-    "title": "Online Radio App",
-    "imageSrc": "projects/project.png",
-    "description": "Online FM Streaming app made with Flutter",
-    "skills": ["Flutter", "Dart"],
-    "demo": "#",
-    "source": "#"
+    "title": "Load Optimization Engine",
+    "description": "Multi-tenant 3D truck/container load planner: fleet generation, Best-Fit Decreasing bin packing, center-of-gravity repair and LIFO load sequencing behind 21 REST endpoints (built at Regere).",
+    "skills": ["Rust", "Axum", "PostgreSQL", "AWS S3", "Docker"],
+    "demo": "",
+    "source": ""
   },
   {
-    "title": "Online Radio App",
-    "imageSrc": "projects/project.png",
-    "description": "Online FM Streaming app made with Flutter",
-    "skills": ["Flutter", "Dart"],
-    "demo": "#",
-    "source": "#"
+    "title": "Yard Recommendation Service",
+    "description": "Stateless service that ranks storage slots in a 3D equipment yard using constraint validation, stacking rules and rule-based scoring, with OpenAPI docs and distributed tracing (built at Regere).",
+    "skills": ["Rust", "Tokio", "OpenAPI", "Tracing"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "Expense Tracker",
+    "description": "Full-stack expense management app with Spring Boot REST APIs, JPA/MySQL persistence and a React UI with real-time Firebase sync.",
+    "skills": ["Java", "Spring Boot", "MySQL", "React"],
+    "demo": "https://expensetracker-segar.vercel.app/",
+    "source": ""
+  },
+  {
+    "title": "Time Table Scheduler",
+    "description": "Constraint-based staff allocation and timetable generation for a university department, cutting manual scheduling time by 70%.",
+    "skills": ["PHP", "JavaScript", "MySQL"],
+    "demo": "",
+    "source": "https://github.com/Chandirasegaran/TimeTableScheduler-TTS"
   }
- 
 ]
