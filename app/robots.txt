@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://chandirasegaran-portfolio.vercel.app/sitemap.xml
+
