@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
@@ -117,13 +117,13 @@ const Projects = () => {
                 <Card className="glass-card h-full flex flex-col">
                   <CardHeader>
                     <CardTitle>{project.title}</CardTitle>
-                    <CardDescription className="flex flex-wrap gap-2 mt-2">
+                    <div className="text-sm text-muted-foreground flex flex-wrap gap-2 mt-2">
                       {project.technologies.map((tech) => (
                         <Badge key={tech} variant="secondary">
                           {tech}
                         </Badge>
                       ))}
-                    </CardDescription>
+                    </div>
                   </CardHeader>
                   <CardContent className="flex-grow">
                     <p>{project.description}</p>

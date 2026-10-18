@@ -23,7 +23,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent dark:from-primary/5 dark:to-transparent -z-10"></div>
+      <div className="absolute inset-y-0 left-1/2 w-screen -translate-x-1/2 bg-gradient-to-br from-primary/10 to-transparent dark:from-primary/5 dark:to-transparent -z-10"></div>
 
       <motion.div
         variants={container}
