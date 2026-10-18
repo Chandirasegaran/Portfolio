@@ -1,0 +1,19 @@
+# Server-side compose: pulls the prebuilt image from Docker Hub (no build).
+# Usage on the server:
+#   docker compose pull && docker compose up -d
+services:
+  portfolio:
+    image: chandirasegaran/portfolio:latest
+    container_name: portfolio
+    pull_policy: always
+    ports:
+      - "5000:3000"
+    environment:
+      - NODE_OPTIONS=--max-old-space-size=128
+    mem_limit: 200m
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"

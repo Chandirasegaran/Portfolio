@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+build
+old
+.git
+.gitignore
+.env*
+.vercel
+npm-debug.log*
+Dockerfile
+docker-compose.yml
+.dockerignore
